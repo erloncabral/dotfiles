@@ -1,0 +1,18 @@
+# Path to your Oh My Zsh installation.
+export ZSH="$HOME/.oh-my-zsh"
+
+# Standard plugins can be found in $ZSH/plugins/
+# Custom plugins may be added to $ZSH_CUSTOM/plugins/
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+
+source $ZSH/oh-my-zsh.sh
+
+# User configuration
+CONFIGS="$HOME/.config"           
+source "$CONFIGS/zshrc/init.zsh"
+
+FILES_STR=$(fd --glob "*.zsh" --exclude "init.zsh" "$CONFIGS/zshrc")
+FILES=($(echo $FILES_STR | tr "\n" " ")) 
+for FILE in $FILES; do 
+	source $FILE 
+done
