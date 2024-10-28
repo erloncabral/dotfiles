@@ -1,0 +1,16 @@
+[base]
+htop
+bat
+zoxide
+fzf
+fd
+micro
+zsh
+
+[gui]
+i3
+rofi
+picom
+nitrogen
+flameshot
+celluloid
