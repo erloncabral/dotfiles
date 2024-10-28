@@ -1,4 +1,3 @@
-
 # https://github.com/eza-community/eza
 # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/eza
 alias ls="eza --icons=always"
