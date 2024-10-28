@@ -42,7 +42,7 @@ exec --no-startup-id nm-applet
 
 # Screenshot
 bindsym $mod+Sys_Req exec flameshot full
-bindsym $mod+Shift+Print exec flameshot gui
+bindsym $mod+Shift+Sys_Req exec flameshot gui
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
