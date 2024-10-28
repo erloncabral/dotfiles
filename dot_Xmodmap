@@ -1,2 +1,4 @@
 ! Natural Scrolling
 pointer = 1 2 3 5 4 7 6 8 9 10
+! MX Keys S (Calc->Print)
+keycode 143 = Sys_Req
