@@ -41,7 +41,9 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
 
 # Screenshot
-bindcode 233 exec flameshot full
+#bindcode 233 exec flameshot full
+bindsym $mod+Sys_Req exec flameshot full
+bindsym $mod+Print exec flameshot gui
 #bindsym $mod+Shift+Print exec flameshot gui
 
 # Use pactl to adjust volume in PulseAudio.
