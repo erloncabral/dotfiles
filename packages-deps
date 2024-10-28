@@ -5,6 +5,8 @@ zoxide
 fzf
 fd
 micro
+polkit
+polkit-gnome
 zsh
 
 [gui]
@@ -14,3 +16,4 @@ picom
 nitrogen
 flameshot
 celluloid
+kitty
