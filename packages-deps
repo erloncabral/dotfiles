@@ -8,6 +8,8 @@ micro
 polkit
 polkit-gnome
 zsh
+eza
+startship
 
 [gui]
 i3
